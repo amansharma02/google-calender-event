@@ -5,10 +5,11 @@ session_start();
 require_once (dirname(__FILE__) . '/src/Google/autoload.php');
 
 $client = new Google_Client();
+$client = new Google_Client();
 $client->setApplicationName("poc");
-$client->setDeveloperKey("394846341398-998v71sprnkiqnnar2aq9331meeugl9b@developer.gserviceaccount.com");  
-$client->setClientId('394846341398-998v71sprnkiqnnar2aq9331meeugl9b.apps.googleusercontent.com');
-$client->setClientSecret('uOslV_oQfJi8gFUrFJzKvXPE');
+$client->setDeveloperKey("Your developer key");  
+$client->setClientId('Your client id');
+$client->setClientSecret('Your client secret');
 $client->setRedirectUri('http://127.0.0.1/googlemaster/googlesidebar.php');
 $client->setAccessType('offline');   // Gets us our refreshtoken
 

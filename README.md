@@ -6,21 +6,18 @@ eg. http://127.0.0.1/googlemaster/
 
 If you want to create events  then change the calender id with your calender id 
 
- $calendarId = 'mj0miodsk2cedhtd0f6rifhgic@group.calendar.google.com' ;
+ $calendarId = 'Your calender id' ;
   
   And 
   
 $client = new Google_Client();
 $client->setApplicationName("poc");
-$client->setDeveloperKey("394846341398-998v71sprnkiqnnar2aq9331meeugl9b@developer.gserviceaccount.com");  
-$client->setClientId('394846341398-998v71sprnkiqnnar2aq9331meeugl9b.apps.googleusercontent.com');
-$client->setClientSecret('uOslV_oQfJi8gFUrFJzKvXPE');
+$client->setDeveloperKey("Your developer key");  
+$client->setClientId('Your client id');
+$client->setClientSecret('Your client secret');
 $client->setRedirectUri('http://127.0.0.1/googlemaster/googlesidebar.php');
 
 with your credentials .
-
-If you want to change events from your id after clicking 'connect me ' , then share your email id with me. I need to grant permission to your Id . so that you can create events from your id.
-
 
 your need to create an project in google to get these values. 
 
